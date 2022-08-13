@@ -1,0 +1,58 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 6px 24px -7px rgba(0,0,0,0.64);
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    z-index: 200;
+    background: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 18px;
+}
+
+.menu {
+    display: none;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(225, 185, 9)
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.categoriesPhoneViewContainer {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.categoriesPhoneView {
+    color: blue;
+}
+
+.categoriePhoneView {
+    margin: 4vh auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .categories {
+        display: none;
+    }
+    .menu {
+        display: initial
+    }
+}

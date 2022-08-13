@@ -1,0 +1,65 @@
+.button {
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 2px auto;
+    padding: 5px;
+    cursor: pointer;
+    width: 15vw;
+    margin-top: 15px
+}
+
+.container {
+    display: flex;
+    padding: 40px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.signInContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.signInMessage {
+    font-size: 1.6em;
+}
+.signInButton {
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 2px auto;
+    padding: 5px;
+    cursor: pointer;
+    width: 35vw;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+    .message {
+        margin-top: 25px;
+    }
+    .button {
+        margin-top: 25px;
+    }
+}

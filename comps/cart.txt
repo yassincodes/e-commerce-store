@@ -1,0 +1,2 @@
+ src="/_next/image?url=https%3A%2F%2Ffakestoreapi.com%2Fimg%2F61U7T1koQqL._AC_SX679_.jpg&w=256&q=75"
+                  
